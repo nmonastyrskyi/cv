@@ -1,0 +1,244 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+@import "media"
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: visible
+	opacity: 1
+
+
+.ug-slider-control.ug-zoompanel.ug-skin-default
+	// left: -30px!important
+	overflow-x: visible
+	top: 88px!important
+	left: 1px!important
+	background-color: rgba(#4c4c4c, 0.5)
+	padding: 4px
+	border-radius: 6px
+h2 
+	font-weight: 300
+	text-transform: uppercase
+	transform: translateX(10px)
+	font-size: 19px
+	margin-top: 20px
+	background-color: lighten($accent, 40%)
+	padding: 1px 10px
+	border-radius: 4px 4px 0 4px
+	transition: all .7s ease
+	&.ua
+		background-color: $accent-ua-2
+	&.ru
+		background-color: darken($accent-ru, 10%)
+	&:after
+		content: '';
+		width: 10px
+		background-color: lighten($accent, 30%)
+		display: block
+		height: 8px
+		position: absolute
+		right: 0
+		margin: 0
+		transition: all 1s ease
+h2.ua:after
+	background-color: darken($accent-ua-2,10%)
+h2.ru:after
+	background-color: darken($accent-ru, 20%)
+h3
+		font-size: 24px
+		font-weight: 300
+		margin: 0 0 5px 0
+		transition: all 1s ease
+h3.ru
+	color: $accent-ru-2
+
+h4
+	font-weight: 300
+	font-size: 18px
+	margin: 0
+ul
+	font-size: 14px
+.btn
+	background-color: #ededed
+	padding: 6px 15px
+	font-size: 14px
+	border-radius: 5px
+	margin: 5px 0 0 0
+	color: #666
+	text-decoration: none
+	transition: all 0.5s ease
+	cursor: pointer
+	display: inline-block
+	&:hover
+		background-color: #dcdcdc
+		text-decoration: none
+		color: inherit
+	&:focus,&:active,&.active
+		text-decoration: none
+		background-color: #c4c4c4
+		color: inherit
+.content
+	width: 100%
+	margin-left: 20px
+	margin-top: 20px
+	display: block!important
+
+.sidebar
+	display: block!important
+	flex-basis: 180px
+	flex-shrink: 0
+	margin: 0 20px
+	background-color: $accent
+	color: #fff
+	padding-bottom: 15px
+	transition: all 1s ease
+.sidebar.ua
+	background-color: $accent-ua
+.sidebar.ru
+	background-color: $accent-ru
+.header
+	display: flex
+	.main-photo
+		width: 100%
+	.content.about
+		margin: 0 20px
+		h1
+			display: inline-block
+			text-transform: uppercase
+			font-weight: 300
+		.lang-box
+			float: right
+			position: relative
+			display: inline-block
+			cursor: pointer
+			.lang
+				display: inline-block
+	
+		.links-box
+			margin-top: 15px
+			cursor: pointer
+			display: block
+		
+			a
+				margin-bottom: 5px
+.education
+	display: flex
+
+	.date
+		margin: 3px 0 15px 0
+		font-size: 14px
+		color: #2f9aa2
+	.date.first
+		margin-bottom: 60px
+
+	.course.description
+		padding-left: 20px 
+		font-style: italic
+		margin-top: -10px
+		font-size: 13.5px
+		list-style-type: square
+
+.skills
+	display: flex				
+	#gallery
+		top: 30px
+	.markup-skills
+		list-style-type: none
+.fa-check-square
+	left: -10px
+	position: relative
+	font-size: 13px
+.fa-ul
+	cursor: default
+@for $i from 0 through 9
+	$j: percentage(($i + 0)/100 * 5)
+	$k : percentage(($i + 0)/100 * 2)
+	$l : percentage((90 - 10 * $i)/100)
+	.gradient-list:nth-child(#{$i}),.gradient-list:nth-child(#{$i}) .fa-check-square
+		color: mix(lighten($accent, $j), red, 90%)
+	.ua.gradient-list:nth-child(#{$i}),.ua.gradient-list:nth-child(#{$i}) .fa-check-square
+		color: mix(darken($accent-ua, $k), $accent-ua-2, $l)
+	.ru.gradient-list:nth-child(#{$i}),.ru.gradient-list:nth-child(#{$i}) .fa-check-square
+		color: mix(black, #bbb, $l)
+.expirience
+	display: flex
+	&-title
+		margin-bottom: 25px
+	.expirience-thumb img
+		margin: 10px auto
+		height: 240px
+	.thumb img
+		transition: all 0.6s ease
+		&:hover
+			transform: scale(1.08)
+	.expirience-title
+		margin-bottom: 0
+	.turnkey-title
+		margin-top: 0
+	.turnkey.thumb img.mobile
+		display: none
+	.turnkey.thumb img.desktop
+		height: 240px
+		width: 100%
+.interests
+	display: flex
+	svg
+		color: #4c4c4c
+	p
+		margin: 2px
+		font-size: 14px
+.mobile
+	display: none
+
+.row
+	margin: 0
+
+.expirience-title,.interests-title
+	padding-left: 15px
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+@import "media" // Всегда в конце
