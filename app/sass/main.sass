@@ -207,19 +207,22 @@ ul
 	.expirience-thumb img
 		margin: 10px auto
 		height: 240px
-	.thumb img
-		transition: all 0.6s ease
-		&:hover
-			transform: scale(1.08)
+	.thumb
+		cursor: pointer
+		img
+			cursor: pointer
+			transition: all 0.6s ease
+			&:hover
+				transform: scale(1.08)
 	.expirience-title
 		margin-bottom: 0
 	.turnkey-title
 		margin-top: 0
-	.turnkey.thumb img.mobile
-		display: none
-	.turnkey.thumb img.desktop
-		height: 240px
-		width: 100%
+	.turnkey.thumb img
+		height: 320px
+		margin: 0 auto
+		display: block
+
 .interests
 	display: flex
 	svg
