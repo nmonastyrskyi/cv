@@ -23,18 +23,23 @@ $(function() {
   "skills.sass": "CSS-preprocessor: Sass;",
   "skills.pug": "HTML-preprocessor: Pug( Jade );",
   "skills.gulp": "Gulp;",
-  "skills.photoshop ": "Adobe Photoshop, Adobe Experience Design;",
-  "skills.sublime ": "Sublime Text ( + Emmet ) for editing code",
+  "skills.sublime ": "PhpStorm / Visual Studio Code / Sublime Text for editing code",
   "skills.programming": "Programming",
   "skills.js": "JS: work with arrays, strings, objects, events, dates, timers, Event object, closures, DOM, metrics, regular expressions, ES6 functions and variables; Understanding of OOP & asynchronous functions;",
   "skills.jquery": "JQuery: manipulating page elements, work with events & animations, customization of modules and plugins;",
   "skills.gulp": "Gulp: projects building;",
   "skills.sql": "SQL",
   "skills.c" : "C: Working with variables, functions, command-line arguements, pointers, linked lists, hash tables, trees, dynamic memory allocation.",
-  "expirience.name" : "Expirience",
-  "expirience.non-commercial" : "Non-commercial expirience",
-  "expirience.commercial" : "Commercial expirience",
-  "expirience.turnkey" : "Turnkey Website",
+  "experience.name" : "Experience",
+  "experience.non-commercial" : "Non-commercial experience",
+  "experience.commercial" : "Commercial experience",
+  "experience.turnkey" : "Turnkey Website",
+  "experience.scemantic" : "Semantic mockup;",
+  "experience.bem" : "BEM css methodology;",
+  "experience.perfomance": "Attention to page performance.",
+  "freelance.date" : "October 2017 - April 2018",
+  "bekey.date" : "April 2018 - Today",
+  "bekey.info" : "Layout pages according to the provided PSD layout, edit existing pages; Adding and editing functionality of elements on the page. Create structured, cross-browser, testable and scalable code;Creation of new projects and work on existing projects",
   "interests": "Interests",
   "hobbies": "Interests & Hobbies",
   "books" : " Books",
@@ -67,18 +72,23 @@ $(function() {
   "skills.sass": "CSS-препроцессор: Sass;",
   "skills.pug": "HTML-препроцессор: Pug( Jade );",
   "skills.gulp": "Gulp;",
-  "skills.photoshop": "Adobe Photoshop, Adobe Experience Design;",
-  "skills.sublime": "Sublime Text ( + Emmet ) для редактирования кода",
+  "skills.sublime": "PhpStorm / Visual Studio Code / Sublime Text для редактирования кода",
   "skills.programming": "Програмимрование",
   "skills.js": "Js: Работа с массивами, строками, объектами, событиями, датами, таймерами, объектом Event, замыкания, DOM, метрики, регулярные выражения, функции и переменные ES6;",
   "skills.jquery": "JQuery: манипулирование элементами страницы, работа с событиями и анимациями, настройка модулей и плагинов",
   "skills.gulp": "Gulp: сборка, деплой проэкта;",
   "skills.sql": "SQL",
   "skills.c" : "Cи: работа с переменными, функциями, аргументами командной строки, указателями, связанные списки, хеш-таблицы, деревья, распределение динамической памяти.",
-  "expirience.name" : "Опыт",
-  "expirience.non-commercial" : "Некоммерческий опыт",
-  "expirience.commercial" : "Коммерческий опыт",
-  "expirience.turnkey" : "Сайт под ключ",
+  "experience.name" : "Опыт",
+  "experience.non-commercial" : "Некоммерческий опыт",
+  "experience.commercial" : "Коммерческий опыт",
+  "experience.turnkey" : "Сайт под ключ",
+  "experience.semantic" : "Семантическая верстка;",
+  "experience.bem" : "css методология БЭМ;",
+  "experience.perfomance": "Особе внимание к производительности страницы.",
+  "freelance.date" : "Октябрь 2017 - Апрель 2018",
+  "bekey.date" : "Апрель 2018 - Настоящее время ",
+  "bekey.info" : "Верстка странички в соответствии с предоставленным макетом PSD, редактировать существующие страницы; Добавление и редактирование функциональных возможностей элементов на странице. Создание структурированного, кросс-браузерного, тестируемого кода; Создание новых проектов и работа над существующими проектами.",
   "interests": "Интересы",
   "hobbies": " Интересы и Хобби",
   "books" : " Книги",
@@ -110,18 +120,23 @@ $(function() {
   "skills.sass": "CSS-препроцесор: Sass;",
   "skills.pug": "HTML-препроцесор: Pug( Jade );",
   "skills.gulp": "Gulp;",
-  "skills.photoshop": "Adobe Photoshop, Adobe Experience Design;",
-  "skills.sublime": "Sublime Text ( + Emmet ) для редагування коду",
+  "skills.sublime": "PhpStorm / Visual Studio Code / Sublime Text для редагування коду",
   "skills.programming": "Програмування",
   "skills.js": "Js: Робота з масивами, рядками, об'єктами, подіями, датами, таймерами, об'єктом Event; замикання DOM, метрики, регулярні вирази, функції та змінні ES6;",
   "skills.jquery": "JQuery: маніпулювання елементами сторінки, робота з подіями і анімаціями, настройка модулів і плагінів",
   "skills.gulp": "Gulp: збірка, деплой проектів;",
   "skills.sql": "SQL",
   "skills.c" : "C: робота зі змінними, функціями, аргументами командного рядка, вказівниками; пов'язані списки, хеш-таблиці, дерева, розподіл динамічної пам'яті.",
-  "expirience.name" : "Досвід",
-  "expirience.non-commercial" : "Некомерційний досвід ",
-  "expirience.commercial" : "Комерційний досвід ",
-  "expirience.turnkey" : "Сайт під ключ",
+  "experience.name" : "Досвід",
+  "experience.non-commercial" : "Некомерційний досвід ",
+  "experience.commercial" : "Комерційний досвід ",
+  "experience.turnkey" : "Сайт під ключ",
+  "experience.semantic" : "Семантична верстка;",
+  "experience.bem" : "css методологія БЕМ;",
+  "experience.perfomance": "Особлива увага до продуктивності сторінки.",
+  "freelance.date" : "Жовтень 2017 - Квітень 2018",
+  "bekey.date" : "Квітень 2018 - Теперішній час ",
+  "bekey.info" : "Верстка сторінки відповідно до наданого макету PSD, редагувати існуючі сторінки; Додавання та редагування функціональних можливостей елементів на сторінці. Створення структурованого, крос-браузерного, що тестується коду; Створення нових проектів і робота над існуючими проектами.",
   "interests": "Інтереси",
   "hobbies": " Інтереси і Хоббі",
   "books" : " Книги",
@@ -134,7 +149,7 @@ $(function() {
 
   // FontAwesomeConfig = { searchPseudoElements: true };
 
-  var unitegallery_api = jQuery("#gallery").unitegallery({
+  var unitegallery_api = $("#gallery").unitegallery({
             gallery_theme: "slider",
             gallery_autoplay: false,
             slider_control_zoom:true,
@@ -146,7 +161,6 @@ $(function() {
             gallery_height: 240,
 
           });
-
   var markupSkills = document.querySelector('.markup-skills').children
   
   for (i = 0; i < 4; i++) {
@@ -205,6 +219,20 @@ function listener(index) {
    }, 100)
   /*LANGUAGE BTN HANDLER END*/
   })
+function activeDescription() {
+  if ($(window).width() <= 768) {
+    $(".turnkey-title,.technologies-list").addClass("active");
+  }
+}
+  activeDescription();
+  $(window).resize(activeDescription);
+
+    $(".turnkey.thumb img").mouseenter(function(){
+      $(".turnkey-title").addClass("active");
+    })
+    $(".legicash.thumb img").mouseenter(function(){
+      $(".technologies-list").addClass("active");
+    })
 
     function changeLanguage(langObject){
       var localizeElems = document.querySelectorAll('[data-localize]')

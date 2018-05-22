@@ -47,6 +47,9 @@ body
 	overflow-x: visible
 	opacity: 1
 
+.row
+	position: relative
+	transition: all 0.7s ease
 
 .ug-slider-control.ug-zoompanel.ug-skin-default
 	// left: -30px!important
@@ -117,6 +120,10 @@ ul
 		text-decoration: none
 		background-color: #c4c4c4
 		color: inherit
+.date
+	font-size: 14px
+	color: #2f9aa2
+	margin-top: 0
 .content
 	width: 100%
 	margin-left: 20px
@@ -200,11 +207,11 @@ ul
 		color: mix(darken($accent-ua, $k), $accent-ua-2, $l)
 	.ru.gradient-list:nth-child(#{$i}),.ru.gradient-list:nth-child(#{$i}) .fa-check-square
 		color: mix(black, #bbb, $l)
-.expirience
+.experience
 	display: flex
 	&-title
 		margin-bottom: 25px
-	.expirience-thumb img
+	.experience-thumb img
 		margin: 10px auto
 		height: 240px
 	.thumb
@@ -214,15 +221,67 @@ ul
 			transition: all 0.6s ease
 			&:hover
 				transform: scale(1.08)
-	.expirience-title
+	.experience-title
 		margin-bottom: 0
+		&.technologies-list 
+			list-style-type: none
+			position: relative
+			margin-top: -20px
+			opacity: 0
+			padding-left: 0
+			max-height: 0
+			transition: all 0.7s ease, max-height 1.5s linear 
+			right: -50px
+			padding-bottom: 30px
+			&.active
+				right: 0px
+				opacity: 1
+				max-height: 500px;
+			& li
+				text-align: center
+				font-size: 14px
+
+
 	.turnkey-title
 		margin-top: 0
-	.turnkey.thumb img
+		opacity: 0
+		position: relative
+		font-size: 18px
+		margin-top: 30px
+		margin-left: -190px
+		transform: translateY(-50%)
+		transition: all 0.7s ease, max-height 1.5s linear 
+		max-height: 0
+		&.active
+			text-align: center
+			max-height: 500px
+			margin-left: 0
+			opacity: 1
+			
+	.turnkey.thumb
+		& img
+			height: 320px
+			margin: 0 auto
+			display: block
+	.legicash.thumb
 		height: 320px
-		margin: 0 auto
-		display: block
+		& img
+			height: 271px
+			margin: 0 auto
+			display: block
+.freelance__date 
+	padding-left: 15px
 
+.bekey
+	&__date
+		padding-left: 15px
+		margin-bottom: 0
+	&__vocation
+		padding-left: 15px
+		margin-top: 0
+	&__info 
+		padding-left: 15px
+		font-size: 14px
 .interests
 	display: flex
 	svg
@@ -236,7 +295,7 @@ ul
 .row
 	margin: 0
 
-.expirience-title,.interests-title
+.experience-title,.interests-title
 	padding-left: 15px
 
 .img-responsive

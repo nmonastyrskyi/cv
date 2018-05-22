@@ -22,9 +22,9 @@
     "skills ": {
       "name": "Skills ",
       "html ": "HTML5/CSS3;",
-      "responsive ": "Responsive, cross-browser, semantically markup;",
+      "responsive ": "Responsive, cross-browser, semantic markup;",
       "mobile ": "Mobile Friendly;",
-      "mobile ": "Markup of emails;",
+      "email ": "Markup of emails;",
       "sass ": "CSS-preprocessor: Sass;",
       "pug ": "HTML-preprocessor: Pug( Jade );",
       "gulp ": "Gulp;",
